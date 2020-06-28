@@ -1,2 +1,5 @@
 # Project Milestone 2: Skynet Edition
  
+Chase Personality: The first tank the player interacts with is an AI tank that will follow the player and shoot at its general direction. The chase AI tank will also go around the walls to chase after the player if needed.
+Flee Personality: The second tank the player interacts is an AI tank that will drive away from the player tank. This AI tank behaves like a sheep and treats the player tank like a herding dog. The AI tank will flee by going the opposite direction/side of the player tank, this AI tank will also avoid walls.
+Patrol personality: The third tank the player will interac with is an AI tank that at first will patrol around a cube by using patrol points as a reference to figure out its patrolling proximity. The patrolling AI tank will also randomly pick a patrol point so it's not guaranteed that the patrolling tank will patrol in a square shape. Also once the patrol tank detects the player tank it will enter a chase mode and go after the player tank and at the player tank.
